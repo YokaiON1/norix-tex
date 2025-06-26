@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Регистрация — Norix Textile</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #000000;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    nav {
+      background-color: #222;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .register-form {
+      max-width: 400px;
+      background-color: white;
+      padding: 30px;
+      margin: 50px auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    .register-form h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .register-form input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .register-form button {
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      background-color: #8f0b96;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .register-form button:hover {
+      background-color: #a306ca;
+    }
+    footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Регистрация</h1>
+    <p>Создайте аккаунт Norix Textile</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Главная</a>
+    <a href="mens.html">Мужской каталог</a>
+    <a href="womens.html">Женский каталог</a>
+    <a href="unisex.html">Унисекс</a>
+    <a href="cart.html">Корзина</a>
+  </nav>
+
+  <div class="register-form">
+    <h2>Зарегистрироваться</h2>
+    <form>
+      <input type="text" placeholder="Имя" required />
+      <input type="email" placeholder="Email" required />
+      <input type="tel" placeholder="Номер телефона" required />
+      <input type="password" placeholder="Пароль" required />
+      <input type="password" placeholder="Повторите пароль" required />
+      <button type="submit">Создать аккаунт</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>© 2025 Norix Textile. Все права защищены.</p>
+  </footer>
+
+</body>
+</html>

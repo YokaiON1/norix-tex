@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Корзина — Norix Textile</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+    header {
+      background-color: #6b008b;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    nav {
+      background-color: #222;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .cart-section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .cart-section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .cart-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
+      padding: 15px 0;
+    }
+    .cart-item img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .cart-item .info {
+      flex-grow: 1;
+      margin-left: 20px;
+    }
+    .cart-item .price {
+      font-weight: bold;
+    }
+    .total {
+      text-align: right;
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    .checkout-btn {
+      display: block;
+      margin: 30px auto 0;
+      padding: 12px 30px;
+      background-color: #6b008b;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .checkout-btn:hover {
+      background-color: #59006f;
+    }
+    footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Корзина</h1>
+    <p>Проверьте и оформите свой заказ</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Главная</a>
+    <a href="mens.html">Мужской</a>
+    <a href="womens.html">Женский</a>
+    <a href="unisex.html">Унисекс</a>
+    <a href="register.html">Регистрация</a>
+  </nav>
+
+  <section class="cart-section">
+    <h2>Ваши товары</h2>
+
+    <div class="cart-item">
+      <img src="/img/w1.jpg" alt="Товар 1" />
+      <div class="info">
+        <p>вечернее платье</p>
+        <div class="price">4000 рублей</div>
+      </div>
+    </div>
+
+    <div class="cart-item">
+      <img src="/img/rubashka.jpg" alt="Товар 2" />
+      <div class="info">
+        <p>Мужская рубашка</p>
+        <div class="price">2000 рублей</div>
+      </div>
+    </div>
+
+    <div class="total">
+      Итого: 6000 рублей
+    </div>
+
+   <a class="checkout-btn" href="checkout.html">Оформить заказ</a>
+
+  </section>
+
+  <footer>
+    <p>© 2025 Norix Textile. Все права защищены.</p>
+  </footer>
+
+</body>
+</html>
